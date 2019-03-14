@@ -46,7 +46,7 @@ $token = json_decode($guzzle->post($url, [
 ])->getBody()->getContents());
 $accessToken = $token->access_token;
 ```
-For an integrated example on how to use Oauth2 in a Laravel application and use the Graph, see the [PHP Connect Sample](https://github.com/microsoftgraph/php-connect-sample).
+For an integrated example on how to use Oauth2 in a Laravel application and use the Graph, see the [Microsoft Graph Training Module](https://github.com/microsoftgraph/msgraph-training-phpapp).
 
 ### Call Microsoft Graph
 
